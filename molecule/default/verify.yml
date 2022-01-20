@@ -9,7 +9,5 @@
   - name: CVMFS probe
     command: cvmfs_config probe
 
-  - name: Search for a module on Compute Canda repo
-    shell: >
-      source /cvmfs/soft.computecanada.ca/config/profile/bash.sh &&
-      module spider quantumespresso/6.8
+  - name: Try enabling Compute Canda module environment
+    shell: source /cvmfs/soft.computecanada.ca/config/profile/bash.sh

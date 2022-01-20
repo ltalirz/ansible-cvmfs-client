@@ -35,7 +35,7 @@ jobs:
 
     - name: Install requirements
       run: |
-        pip install --use-feature=2020-resolver -r molecule/requirements.txt
+        pip install --use-feature=2020-resolver -r requirements.txt
       working-directory: ${{ env.galaxy-name }}
 
     # See https://github.com/geerlingguy/raspberry-pi-dramble/issues/166
