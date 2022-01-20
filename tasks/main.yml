@@ -12,4 +12,3 @@
 - { import_tasks: storage.yml, tags: ['storage'], when: cvmfs_client_configure_storage | bool }
 - { import_tasks: packages.yml, tags: ['packages'] }
 - { import_tasks: config.yml, tags: ['config'] }
-
