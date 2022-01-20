@@ -12,3 +12,5 @@
     vars:
       cvmfs_cache_size: "1000"  # small cache size for CI
       cvmfs_http_proxy: "http://cvmfs-cache.arbutus.cloud.computecanada.ca:3128;DIRECT"
+      cvmfs_configuration:
+        - "cvmfs-config-computecanada"
